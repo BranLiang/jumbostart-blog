@@ -1,0 +1,6 @@
+<h1>All Articles</h1>
+<ul class="list-group">
+  <% @articles.each do |article| %>
+    <li class="list-group-item"><%= article.title %></li>
+  <% end %>
+</ul>
