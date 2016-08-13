@@ -87,6 +87,9 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
+    pry-doc (0.9.0)
+      pry (~> 0.9)
+      yard (~> 0.8)
     pry-rails (0.3.4)
       pry (>= 0.9.10)
     puma (3.6.0)
@@ -158,6 +161,7 @@ GEM
     websocket-driver (0.6.4)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.2)
+    yard (0.9.5)
 
 PLATFORMS
   ruby
@@ -168,6 +172,8 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
+  pry
+  pry-doc
   pry-rails
   puma (~> 3.0)
   rails (~> 5.0.0, >= 5.0.0.1)
