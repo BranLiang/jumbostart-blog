@@ -6,9 +6,10 @@
     <%= render partial: '/layouts/nav' %>
     <div class="container col-md-6 col-md-offset-3">
       <div class="row">
-
-        <p><%= flash.notice %></p>
-
+        <% if flash.notice %>
+          <div class="alert alert-success"><%= flash.notice %></div>
+        <% end %>
+        
         <%= yield %>
 
         <%= render partial: '/layouts/foot' %>

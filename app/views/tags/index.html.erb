@@ -1,7 +1,4 @@
-<ul>
-  <% @tags.each do |tag| %>
-    <li><%= link_to tag.name, tag_path(tag) %>  <%= link_to "delete", tag_path(tag), method: :delete %></li>
-  <% end %>
-</ul>
 
-<%= link_to "Home", articles_path %>
+  <% @tags.each do |tag| %>
+    <h3><%= link_to tag.name, tag_path(tag) %>  <%= link_to "delete", tag_path(tag), method: :delete %></h3>
+  <% end %>
