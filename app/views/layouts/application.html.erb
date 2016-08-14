@@ -10,13 +10,15 @@
 
   <body>
     <%= render partial: '/layouts/nav' %>
+    <div class="container col-md-6 col-md-offset-3">
+      <div class="row">
 
-      <p><%= flash.notice %></p>
-      <div>
+        <p><%= flash.notice %></p>
+
         <%= yield %>
-        <hr>
 
       </div>
+    </div>
 
 
   </body>
