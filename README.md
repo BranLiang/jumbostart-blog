@@ -1,24 +1,11 @@
-# README
+# Simple blog build with ruby on rails and bootstrap
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Main Page
 
-Things you may want to cover:
+![](https://github.com/BranLiang/jumbostart-blog/blob/master/Screenshot%20from%202016-08-15%2009-36-09.png)
 
-* Ruby version
+## Comment section
 
-* System dependencies
+![](https://github.com/BranLiang/jumbostart-blog/blob/master/Screenshot%20from%202016-08-15%2009-36-38.png)
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+BranLiang
